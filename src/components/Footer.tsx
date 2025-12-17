@@ -60,12 +60,7 @@ export const Footer = () => {
             transition={{ delay: 0.4 }}
             className="text-center md:text-right"
           >
-            <p className="text-sm text-muted-foreground flex items-center gap-1 justify-center md:justify-end">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> by Aman
-            </p>
-            <p className="text-xs text-muted-foreground mt-1">
-              © {currentYear} All rights reserved.
-            </p>
+            
           </motion.div>
         </div>
       </div>
