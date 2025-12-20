@@ -90,7 +90,7 @@ export const HeroSection = () => {
             transition={{ duration: 0.8, delay: 1 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/Aman-cve"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 glass-card rounded-full hover:bg-primary/10 transition-colors"
@@ -100,7 +100,7 @@ export const HeroSection = () => {
               <Github className="w-5 h-5" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/aman-cve-7773631a6/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 glass-card rounded-full hover:bg-primary/10 transition-colors"
@@ -110,7 +110,7 @@ export const HeroSection = () => {
               <Linkedin className="w-5 h-5" />
             </motion.a>
             <motion.a
-              href="mailto:aman@example.com"
+              href="mailto:amancve00@gmail.com"
               className="p-3 glass-card rounded-full hover:bg-primary/10 transition-colors"
               whileHover={{ scale: 1.1, y: -5 }}
               whileTap={{ scale: 0.95 }}

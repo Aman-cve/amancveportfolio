@@ -28,9 +28,9 @@ export const ContactSection = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "aman@example.com", href: "mailto:aman@example.com" },
-    { icon: Github, label: "GitHub", value: "github.com/aman", href: "https://github.com" },
-    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/aman", href: "https://linkedin.com" },
+    { icon: Mail, label: "Email", value: "Amancve00@gmail.com", href: "mailto:Amancve00gmail.com" },
+    { icon: Github, label: "GitHub", value: "github.com/aman", href: "https://github.com/Aman-cve" },
+    { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/aman", href: "https://www.linkedin.com/in/aman-cve-7773631a6/" },
     { icon: MapPin, label: "Location", value: "India", href: "#" },
   ];
 
@@ -155,10 +155,12 @@ export const ContactSection = () => {
               <p className="text-muted-foreground mb-6">
                 Get a detailed overview of my experience and skills.
               </p>
-              <Button variant="outline" className="gradient-border glow">
-                <Download className="w-4 h-4 mr-2" />
-                Download CV
-              </Button>
+             <Button asChild variant="outline" className="gradient-border glow">
+  <a href="/Aman_intern.pdf" download>
+    <Download className="w-4 h-4 mr-2" />
+    Download CV
+  </a>
+</Button>
             </motion.div>
           </motion.div>
         </div>

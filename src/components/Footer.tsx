@@ -28,7 +28,7 @@ export const Footer = () => {
             className="flex items-center gap-4"
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/Aman-cve"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-primary/10 transition-colors"
@@ -37,7 +37,7 @@ export const Footer = () => {
               <Github className="w-5 h-5" />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/aman-cve-7773631a6/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-primary/10 transition-colors"
@@ -46,7 +46,7 @@ export const Footer = () => {
               <Linkedin className="w-5 h-5" />
             </motion.a>
             <motion.a
-              href="mailto:aman@example.com"
+              href="mailto:Amancve00gmail.com"
               className="p-2 rounded-lg hover:bg-primary/10 transition-colors"
               whileHover={{ scale: 1.1 }}
             >
